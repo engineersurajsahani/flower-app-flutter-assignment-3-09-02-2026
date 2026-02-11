@@ -1,0 +1,67 @@
+### Flutter/Dart
+**/build/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# Dart/Pub
+.dart_tool/
+.packages
+pubspec.lock
+
+### IDE & Tooling
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad/
+DerivedData/
+
+# macOS
+.DS_Store
+
+# Logs & misc
+*.log
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.metadata
+
+# Coverage
+coverage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+### JavaScript / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.turbo/
+.next/
+dist/
+
+# Env files (if you add JS tooling or backends)
+.env
+.env.*
+
